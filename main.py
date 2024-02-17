@@ -100,7 +100,7 @@ btn2 = Button(root, text="Delete Book", bg='black', fg='white', command=delete)
 # Place the btn2 widget relative to its parent widget (root)
 # The position is defined as 28% from the left and 50% from the top of the parent widget
 # The width and height of the widget are defined as 45% of the width and 10% of the height of the parent widget, respectively
-btn2.place(relx=0.28, rely=0.5, relwidth=0.45, relheight=0.1)
+btn2.place(relx=0.28, rely=0.55, relwidth=0.45, relheight=0.1)
 
 # Create a button widget for viewing the book list
 btn3 = Button(root, text="View Book List", bg='black', fg='white', command=View)
@@ -108,7 +108,7 @@ btn3 = Button(root, text="View Book List", bg='black', fg='white', command=View)
 # Place the btn3 widget relative to its parent widget (root)
 # The position is defined as 28% from the left and 60% from the top of the parent widget
 # The width and height of the widget are defined as 45% of the width and 10% of the height of the parent widget, respectively
-btn3.place(relx=0.28, rely=0.6, relwidth=0.45, relheight=0.1)
+btn3.place(relx=0.28, rely=0.7, relwidth=0.45, relheight=0.1)
 
 # Create a button widget for issuing books to students
 btn4 = Button(root, text="Issue Book to Student", bg='black', fg='white', command=issueBook)
@@ -116,7 +116,7 @@ btn4 = Button(root, text="Issue Book to Student", bg='black', fg='white', comman
 # Place the btn4 widget relative to its parent widget (root)
 # The position is defined as 28% from the left and 70% from the top of the parent widget
 # The width and height of the widget are defined as 45% of the width and 10% of the height of the parent widget, respectively
-btn4.place(relx=0.28, rely=0.7, relwidth=0.45, relheight=0.1)
+btn4.place(relx=0.28, rely=0.85, relwidth=0.45, relheight=0.1)
 
 # Create a button widget for returning books
 btn5 = Button(root, text="Return Book", bg='black', fg='white', command=returnBook)
@@ -124,7 +124,7 @@ btn5 = Button(root, text="Return Book", bg='black', fg='white', command=returnBo
 # Place the btn5 widget relative to its parent widget (root)
 # The position is defined as 28% from the left and 80% from the top of the parent widget
 # The width and height of the widget are defined as 45% of the width and 10% of the height of the parent widget, respectively
-btn5.place(relx=0.28, rely=0.8, relwidth=0.45, relheight=0.1)
+btn5.place(relx=0.28, rely=1, relwidth=0.45, relheight=0.1)
 
 # Enter the Tkinter event loop
 root.mainloop()
